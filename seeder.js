@@ -29,7 +29,7 @@ const courses = JSON.parse(
 const importData = async () => {
   try {
     await Bootcamp.create(bootcamps);
-    await Course.create(courses);
+    // await Course.create(courses);
 
     // .green.inverse is simply to make the console log green,
     // based on our colors module. This is not necessary.
